@@ -5,12 +5,11 @@ import java.util.Scanner;
  
 public class MergeSort {
  
-	static long counter = 0;
- 
 	public static void main(String args[]){
   		int data[] = readFile("InputArray.txt");
   		data = mergeSort(data);
-  		System.out.println("\nThe number of inversions is:"+counter);
+  		for(int i: data)
+  			System.out.print(i+"\t");
 	}
  
 	public static int[] readFile(String file){
@@ -76,7 +75,6 @@ public class MergeSort {
 			else if (b[j]<a[i]){
 				c[k] = b[j];
 				j++;
-				counter += a.length-i;
 			}
 		}
 		return c;

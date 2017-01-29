@@ -1,0 +1,1 @@
+This program implements the mergesort algorithm for sorting an array of integers. It takes input from a file containing a list of integers from 1 to 1,00,000 in random order and then sorts it.
