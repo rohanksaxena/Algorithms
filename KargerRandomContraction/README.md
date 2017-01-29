@@ -1,0 +1,3 @@
+This program implements Karger's random contraction algorithm to count the number of minimum cuts i.e the minimum number of crossing edges. It reads the input undirected graph from a text file. Every row in the text file is written in a particular format, where the first entry is the source node followed by the nodes it has direct edges to. For e.g. if a line reads "1 23 37 52", it means that the node 1 is connected to the nodes 23, 37 and 52 with direct edges.
+Since this is a randomized algorithm, it may require repeated runs to give the correct result. 
+For the given sample input graph, the number of minimum cuts is 17.
