@@ -1,0 +1,1 @@
+This program implements Kosaraju's two pass algorithm to find the sizes of strongly connected components. It takes input in the form of edges from a text file and prints the sizes of strongly connected components in ascending order.
