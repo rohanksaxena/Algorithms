@@ -1,0 +1,1 @@
+This program implements the recursive multiplication algorithm for computing the product of two numbers. This program takes as input two 64-digit numbers and finds their product. This program runs correctly for two numbers having the same number of digits 'n', where 'n' is a positive power of 2.
