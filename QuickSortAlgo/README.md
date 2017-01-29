@@ -1,0 +1,1 @@
+This program implements the quicksort algorithm for sorting an array of integers. It reads the input array from a file which contains the integers from 1 to 10,000 in an unordered manner. The first element of the array is chosen as pivot.
